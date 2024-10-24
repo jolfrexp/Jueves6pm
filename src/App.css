@@ -1,0 +1,31 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+.w3-third .w3-margin-bottom img{
+    width:100%;
+}
+.w3-content{
+    max-width:1532px;
+}
+.w3-image .w3-greyscale{
+    width:100%;
+}
+.w3-row-padding .w3-large .w3-center{
+    margin:32px 0;
+}
+.imagenPrincipal{
+    width: 100%;
+    height: 250px ;
+}
+.flexin{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+.item{
+    min-width: 250px;
+    max-width: 32%;
+}
+header{
+    background-color: rgb(250, 58, 58);
+    color: aliceblue;
+}
