@@ -1,4 +1,5 @@
 import './App.css'
+import 'animate.css'
 import { Route,Routes } from 'react-router-dom'
 import { HotelProvider } from './components/HotelProvider'
 import Home from './Pages/Home'
@@ -13,7 +14,7 @@ function App() {
   return (
     <>
       <HotelProvider>
-        <Routes>
+          <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/Rooms' element={<Rooms/>}/>
           <Route path='/About' element={<About/>}/>

@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import 'animate.css'
 function Article({habitacion,id}) {
 // style=""
   return (
     <>
-    <div class="w3-third w3-margin-bottom item">
+    <div class="w3-third w3-margin-bottom item animate__animated animate__backInLeft">
       <img src={habitacion.imagen[0]} alt="Norway" className='imagenPrincipal'/>
       <div class="w3-container w3-white">
-        <h3>{habitacion.type}</h3>
+        <h3 className=''>{habitacion.type}</h3>
         <h6 class="w3-opacity">From: {habitacion.price}</h6>
         <p>{habitacion.beds}</p>
         <p>{habitacion.dimentions}<sup>2</sup></p>

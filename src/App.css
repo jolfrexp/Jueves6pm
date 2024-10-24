@@ -29,3 +29,18 @@ header{
     background-color: rgb(250, 58, 58);
     color: aliceblue;
 }
+.cont-img{
+    width: 33%;
+}
+.cont-img img{
+    width: 100%;
+}
+.imagenes{
+    display: flex;
+    margin-bottom: 10%;
+    gap: 1%;
+}
+.add{
+    display: flex;
+    width: 100%;
+}

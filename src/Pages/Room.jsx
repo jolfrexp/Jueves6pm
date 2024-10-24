@@ -15,7 +15,7 @@ function Room() {
     <Header/>
     <Nav/>
     <div className='flexin'>
-      <div class="w3-third w3-margin-bottom item">
+      <div class="w3-third w3-margin-bottom item animate__animated animate__backInLeft">
       <img src={imagen[0]} alt="Norway" className='imagenPrincipal'/>
       <img src={imagen[2]} alt="Norway" className='imagenPrincipal'/>
       
@@ -28,29 +28,28 @@ function Room() {
         <p>Disponibilidad: {freeRoom}</p>
       </div>
     </div>
-
-    <div class="w3-col m2">
+    
+    <div class="w3-col m2 animate__animated animate__fadeInDown">
       <label><i class="fa fa-calendar-o"></i> Check In</label>
       <input class="w3-input w3-border checkin" type="date" placeholder="DD MM YYYY" required/>
     </div>
-    <div class="w3-col m2">
+    <div class="w3-col m2 animate__animated animate__fadeInUp">
       <label><i class="fa fa-calendar-o"></i> Check Out</label>
       <input class="w3-input w3-border checkout" type="date" placeholder="DD MM YYYY" required/>
     </div>
-    <div class="w3-col m1">
+    <div class="w3-col m1 animate__animated animate__fadeInDown">
       <label><i class="fa fa-male"></i> Adults</label>
       <input class="w3-input w3-border Adults" type="number" placeholder="0" required/>
     </div>
-    <div class="w3-col m1">
-      <label><i class="fa fa-child"></i> Kids</label>
+    <div class="w3-col m1 animate__animated animate__fadeInUp">
+      <label><i class="fa fa-child "></i> Kids</label>
       <input class="w3-input w3-border Kids" type="number" placeholder="0"/>
     </div>
-    <div class="w3-col m1   ">
+    <div class="w3-col m1 animate__animated animate__fadeInDown">
       <label>Request</label>
       <button class="w3-button w3-block w3-black" type='submit'>Request</button>
     </div>
-  </div>
-
+    </div>
    <Footer/>
     </>
   )
